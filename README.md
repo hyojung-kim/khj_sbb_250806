@@ -1,6 +1,6 @@
-요구사항 - 어떤기능을 정의할 건지 <br>
+## 요구사항 - 어떤기능을 정의할 건지 <br>
 
-1. 게시글 생성 <br>
+### 1. 게시글 생성 <br>
 
 [O] 제목입력 (필수)<br>
 [O] 내용입력 (필수)<br>
@@ -10,7 +10,7 @@
 // [X] 게시글 탭 선택 (자유,공지) <br>
 
 
-2. 조회 <br>
+### 2. 조회 <br>
 
 [O] 제목,  작성날짜<br>
 [X] 조회 기준을 작성날짜기준으로 내림차순이 좋을 것 같음<br>
@@ -19,7 +19,7 @@
 //[X] 페이징 10개  <br>
 
 
-3.게시글 상세 <br>
+### 3.게시글 상세 <br>
 
 [O] 제목 / 내용 / 작성날짜  <br>
 [O] 전체 댓글 수 표시  <br>
@@ -32,7 +32,7 @@
 // 좋아요 달기   <br>
 
 
-데이터베이스 구조 설계 <br>
+## 데이터베이스 구조 설계 <br>
 Question >> id subject content createDate  //updated_at, view_cnt, like, user_id (FK →) <br>
 Answer >> id, content, createDate question //updated_at <br>
 //[X] User >> ID, userName, PW, createDate <br>
