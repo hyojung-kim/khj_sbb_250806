@@ -39,36 +39,36 @@ Answer >> id, content, createDate question //updated_at
 
 
 com.mysite.sbb. <br>
-  answer <br>
-    Answer <br>
-    AnswerController <br>
-    AnswerService <br>
-    AnswerRepository <br>
+----answer <br>
+--------Answer <br>
+--------AnswerController <br>
+--------AnswerService <br>
+--------AnswerRepository <br>
     
-  question
-    Question
-    QuestionController
-    QuestionService
-    QuestionRepository
+----question <br>
+--------Question  <br>
+--------QuestionController <br>
+--------QuestionService <br>
+--------QuestionRepository <br>
   
-  main
-    MainController   
+----main <br>
+--------MainController    <br>
 
-DataNotFoundException
-SbbApplication
-SecurityConfig
+DataNotFoundException <br>
+SbbApplication <br>
+SecurityConfig <br>
 
-resources
-  static
-    style.css
-  templates
-    -공통
-    form_errors.html
-    layout
-    -구현페이지
-    question_list.html
-    question_detail.html
-    question_form.html
+----resources<br>
+----static<br>
+--------style.css <br>
+----templates <br>
+--------공통 <br>
+--------form_errors.html <br>
+--------layout <br>
+--------구현페이지 <br>
+--------question_list.html <br>
+--------question_detail.html <br>
+--------question_form.html <br>
 
 
 
