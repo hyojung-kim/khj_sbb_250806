@@ -38,12 +38,12 @@ Answer >> id, content, createDate question //updated_at
 
 
 
-com.mysite.sbb.
-  answer
-    Answer
-    AnswerController
-    AnswerService
-    AnswerRepository
+com.mysite.sbb. <br>
+  answer <br>
+    Answer <br>
+    AnswerController <br>
+    AnswerService <br>
+    AnswerRepository <br>
     
   question
     Question
