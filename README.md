@@ -75,11 +75,20 @@ SecurityConfig <br>
 --------question_form.html <br>
 
 ## UI/UX (화면 캡처본을 복사 붙여 넣기, url 주소 나오도록)
-- 루트/                /question/list   
+- 루트/                /question/list   | get요청
 - 게시글 리스트 페이지  /question/list    | get요청
+<img width="1512" height="448" alt="image" src="https://github.com/user-attachments/assets/49dc3259-e6df-4605-8cba-08d6fda02271" />
+
+- 게시글 등록 폼 페이지 /question/create  | get요청
 - 게시글 등록 폼 페이지 /question/create/{id}?subject=''&content=''  | post요청
-- 게시글 상세 페이지    /question/detail/{id} | get요청 
+<img width="1533" height="660" alt="image" src="https://github.com/user-attachments/assets/f2c1d3c7-5072-4e62-b1f2-27558fa7bd90" />
+
+- 게시글 상세 페이지    /question/detail/{id} | get요청
 - 답글 등록 페이지      /answer/create/{id}?content='' | post요청
+<img width="1559" height="831" alt="image" src="https://github.com/user-attachments/assets/9af4f001-a1f2-45a2-a2fc-aaf5f1e90615" />
+
+
+
 
 ## 미비사항 or 막힌 부분
 - AnswerForm, QuestionForm 객체, @Valid 태그 사용에서 html form화면에서 조회하는 화면, 생성하는 화면을 @GetMapping,    @PostMapping 구현하는 구조가 꽤 복잡함
