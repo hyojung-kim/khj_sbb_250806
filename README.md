@@ -32,7 +32,7 @@
 // 좋아요 달기   <br>
 
 
-## 데이터베이스 구조 설계 <br>
+## 데이터베이스, dir 구조 설계 <br>
 Question >> id subject content createDate  //updated_at, view_cnt, like, user_id (FK →) <br>
 Answer >> id, content, createDate question //updated_at <br>
 //[X] User >> ID, userName, PW, createDate <br>
